@@ -37,7 +37,7 @@ module ExceptionHandler
       end
 
       #Info
-      def info
+      def self.info
         info = {
           class_name:   @exception.class.to_s,
           message:      @exception.message.to_s,
